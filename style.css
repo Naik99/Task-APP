@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+/* Mark as Done button */
+li form button[name="mark_completed"] {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+li form button[name="mark_completed"]:hover {
+    background-color: #45a049;
+}
+
+/* Undo button */
+li form button[name="undo_task"] {
+    background-color: #008CBA; /* Blue */
+    color: white;
+}
+
+li form button[name="undo_task"]:hover {
+    background-color: #007bb5;
+}
+
+/* Delete button */
+li form button[name="delete_task"] {
+    background-color: #f44336; /* Red */
+    color: white;
+}
+
+li form button[name="delete_task"]:hover {
+    background-color: #d32f2f;
+}
+
+
+li form {
+    display: inline;
+    margin-left: 10px;
+}
+
+h3 {
+    margin-top: 20px;
+}
